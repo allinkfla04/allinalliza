@@ -1,244 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta a name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Alliza Hampers&Buket</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta a name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alliza Hampers&Buket</title>
 
-        <!-- font awesome cdn link -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS Utama-->
+    <link rel="stylesheet" href="style.css" />
 
-        <!-- CSS Utama-->
-        <link rel="stylesheet" href="style.css">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- heaader section starts-->
+    <header>
+      <input type="checkbox" name="" id="toggler" />
+      <label for="toggler" class="fas fa-bars"></label>
 
-        <!-- aos -->
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <nav class="navbar" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#best seller product">Best Seller Product</a>
+        <a href="#contact-us">Contact Us</a>
+      </nav>
 
-    </head>
-    <body>
-        <!-- heaader section starts-->
-        <header>
-            <input type="checkbox" name="" id="toggler">
-            <label for="toggler" class="fas fa-bars"></label>
+      <nav class="icons" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+      </nav>
+    </header>
+    <!-- heaader section ends -->
 
-            <nav class="navbar" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">
-            <a href="#home">Home</a>
-            <a href="#about">About Us</a>
-            <a href="#best seller product">Best Seller Product</a>
-            <a href="#contact-us">Contact Us</a>
-           </nav> 
-           
-           <nav class="icons" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">
-            <a href="#" class="fas fa-heart"></a>
-            <a href="#" class="fas fa-shopping-cart"></a>
-            <a href="#" class="fas fa-user"></a>
-           </nav>
-        </header>
-        <!-- heaader section ends -->
+    <!-- hero section start -->
+    <main>
+      <article class="hero" id="home">
+        <section class="content" data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
+          <h1>Solusi Kado <span>Terbaik</span></h1>
+          <p class="deskripsi"></p>
+        </section>
+      </article>
+      <!-- hero section ends -->
 
-        <!-- hero section start -->
-        <main>
-        <article class="hero" id="home">
-            <section class="content" data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
-                <h1>Solusi Kado <span>Terbaik</span></h1>
-                <p class="deskripsi"></p>   
-    </section>
-       </article>   <!-- hero section ends -->
-
-         <article id="about" class="about">
-<!--icons section start -->
-<h2 class="text" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">Kenapa harus di Alliza Hampers&Buket?</h2> 
-<section class="icons-container" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100">
-    <div class="icons" data-aos="zoom-in">
-        <img src="assets/image/freerequest.png" alt="">
-        <div class="info">
-            <h3>free request</h3>
-            <span>request as you wish for a special gift</span>
-        </div>
-    </div>
-    <div class="icons" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
-        <img src="assets/image/packaging.png" alt="">
-        <div class="info">
-            <h3>aesthetic packaging</h3>
-            <span>make your gift even more special</span>
-        </div>
-    </div>
-    <div class="icons" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300">
-        <img src="assets/image/fast.png" alt="">
-        <div class="info">
-            <h3>fast work</h3>
-            <span>fast work within the specified time</span>
-        </div>
-    </div>
-    <div class="icons" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
-        <img src="assets/image/kurir.png" alt="">
-        <div class="info">
-            <h3>delivery order</h3>
-            <span>on all order</span>
-        </div>
-    </div>
-</section>
-<!--icons section end -->
-
-<!-- best seller product start -->
-<article id="best seller product" class="product">
-    <h2 class="text" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">best seller product</h2>
-    <p class="text-produk" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">'produk best seller dan terlaris kami:'</p>
-
-<div class="row">
-    <div class="product-card">
-        <img src="assets/image/hampersjajan.jpg"
-        alt="hampers jajan" class="product-card-img">
-        <h3 class="product-card-tittle">-
-            hampers jajan -</h3>
-            <p clss="product-card-price">IDR 20k</p>
-        </div>
-    <div class="product-card">
-        <img src="assets/image/hampersnotebook.jpg"
-        alt="hampers notebook" class="product-card-img">
-        <h3 class="product-card-tittle">-
-            hampers notebook -</h3>
-            <p clss="product-card-price">IDR 20k</p>
-        </div>
-    <div class="product-card">
-        <img src="assets/image/hampershijab.jpg"
-        alt="hampers hijab" class="product-card-img">
-        <h3 class="product-card-tittle">-
-            hampers hijab -</h3>
-            <p clss="product-card-price">IDR 40k</p>
-        </div>
-    <div class="product-card">
-        <img src="assets/image/buketuang.jpg"
-        alt="buket uang" class="product-card-img">
-        <h3 class="product-card-tittle">-
-            buket uang -</h3>
-            <p clss="product-card-price">IDR 50k</p>
-        </div>
-    <div class="product-card">
-        <img src="assets/image/buketbunga.jpg"
-        alt="buket bunga" class="product-card-img">
-        <h3 class="product-card-tittle">-
-            buket bunga -</h3>
-            <p clss="product-card-price">IDR 60k</p>
-        </div>
-    <div class="product-card">
-        <img src="assets/image/buketchocolatos.jpg"
-        alt="buket chocolatos" class="product-card-img">
-        <h3 class="product-card-tittle">-
-            buket chocolatos -</h3>
-            <p clss="product-card-price">IDR 40k</p>
-        </div>
-</div>
-</article>
-<!-- best seller product end -->
-
-<!-- aside start-->
-<aside>
-<article id="contact-us" class="hubungi" >
-    <h2 class="text" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">Contact Us </h2>
-    
-    <form name="contact-us-alliza" class="contact-form">
-        <div class="form-group" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="50">
-            <div class="alert alert-primary d-none my-alert" role="alert">Your message has been sent</div>
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" aria-describedby="name" name="name" />
-        </div>
-
-        <div class="form-group" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100">
-            <label for="telpon" class="form-label">Phone</label>
-            <input type="phone" class="form-control" id="phone" aria-describedby="name" name="phone" />
-        </div>
-
-        <div class="form-group" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="150">
-            <label for="Pertanyaan" class="form-label">Question</label>
-            <textarea class="form-control" id="question" rows="3" name="question"></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-primary btn-kirim" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">Send</button>
-
-        <button class="btn btn-primary btn-loading " type="button" disabled>
-            <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
-            <span role="status">Loading...</span>
-        </button>
-    </form>
-</article>
-    <section></section>
-
-    
-</aside>
-<!-- aside end -->
-        </main>
-
-
-
-<!-- footer start -->
-<footer>
-    <article id="sosmed" class="sosmed">
-    <h3 class="text" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">Sosial Media</h3>
-    <div class="sosial-media">
-        <a class="itemSosmed" href="https://wa.me/+6285641029359" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="50"><i class="fab fa-whatsapp"></i></a>
-            <a class="itemSosmed" href="https://www.instagram.com/Kafila04_/" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100"
-              ><i class="fab fa-instagram"></i
-            ></a>
-            <a class="itemSosmed" href="https://www.facebook.com/alliza.shopp?mibextid=rS40aB7S9Ucbxw6v" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="150"
-              ><i class="fab fa-facebook" ></i
-            ></a>
+      <article id="about" class="about">
+        <!--icons section start -->
+        <h2 class="text" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">Kenapa harus di Alliza Hampers&Buket?</h2>
+        <section class="icons-container" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100">
+          <div class="icons" data-aos="zoom-in">
+            <img src="assets/image/freerequest.png" alt="" />
+            <div class="info">
+              <h3>free request</h3>
+              <span>request as you wish for a special gift</span>
+            </div>
           </div>
-    
-        <div class="credit">
-            <p>Created by <a href="">Allin Shifna Kafila</a></p>
-        </div>
-        
-    </article>
-</footer>
+          <div class="icons" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
+            <img src="assets/image/packaging.png" alt="" />
+            <div class="info">
+              <h3>aesthetic packaging</h3>
+              <span>make your gift even more special</span>
+            </div>
+          </div>
+          <div class="icons" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="300">
+            <img src="assets/image/fast.png" alt="" />
+            <div class="info">
+              <h3>fast work</h3>
+              <span>fast work within the specified time</span>
+            </div>
+          </div>
+          <div class="icons" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
+            <img src="assets/image/kurir.png" alt="" />
+            <div class="info">
+              <h3>delivery order</h3>
+              <span>on all order</span>
+            </div>
+          </div>
+        </section>
+        <!--icons section end -->
 
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxHLA2FsBRSokX1CvyJ2WfSCLnzhrsWSBMTiZF86z1G1oS2ovvEMEYld_c05PpmJwuP/exec'
-    const form = document.forms['contact-us-alliza'];
-    const btnKirim = document.querySelector(".btn-kirim");
+        <!-- best seller product start -->
+        <article id="best seller product" class="product">
+          <h2 class="text" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">best seller product</h2>
+          <p class="text-produk" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">'produk best seller dan terlaris kami:'</p>
+
+          <div class="row">
+            <div class="product-card">
+              <img src="assets/image/hampersjajan.jpg" alt="hampers jajan" class="product-card-img" />
+              <h3 class="product-card-tittle">- hampers jajan -</h3>
+              <p clss="product-card-price">IDR 20k</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image/hampersnotebook.jpg" alt="hampers notebook" class="product-card-img" />
+              <h3 class="product-card-tittle">- hampers notebook -</h3>
+              <p clss="product-card-price">IDR 20k</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image/hampershijab.jpg" alt="hampers hijab" class="product-card-img" />
+              <h3 class="product-card-tittle">- hampers hijab -</h3>
+              <p clss="product-card-price">IDR 40k</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image/buketuang.jpg" alt="buket uang" class="product-card-img" />
+              <h3 class="product-card-tittle">- buket uang -</h3>
+              <p clss="product-card-price">IDR 50k</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image/buketbunga.jpg" alt="buket bunga" class="product-card-img" />
+              <h3 class="product-card-tittle">- buket bunga -</h3>
+              <p clss="product-card-price">IDR 60k</p>
+            </div>
+            <div class="product-card">
+              <img src="assets/image/buketchocolatos.jpg" alt="buket chocolatos" class="product-card-img" />
+              <h3 class="product-card-tittle">- buket chocolatos -</h3>
+              <p clss="product-card-price">IDR 40k</p>
+            </div>
+          </div>
+        </article>
+        <!-- best seller product end -->
+
+        <!-- aside start-->
+        <aside>
+          <article id="contact-us" class="hubungi">
+            <h2 class="text" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">Contact Us</h2>
+
+            <form name="contact-us-alliza" class="contact-form">
+              <div class="form-group" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="50">
+                <div class="alert alert-primary d-none my-alert" role="alert">Your message has been sent</div>
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="name" />
+              </div>
+
+              <div class="form-group" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100">
+                <label for="telpon" class="form-label">Phone</label>
+                <input type="phone" class="form-control" id="phone" aria-describedby="name" name="phone" />
+              </div>
+
+              <div class="form-group" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="150">
+                <label for="Pertanyaan" class="form-label">Question</label>
+                <textarea class="form-control" id="question" rows="3" name="question"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-kirim" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">Send</button>
+
+              <button class="btn btn-primary btn-loading" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                <span role="status">Loading...</span>
+              </button>
+            </form>
+          </article>
+          <section></section>
+        </aside>
+        <!-- aside end -->
+      </article>
+    </main>
+
+    <!-- footer start -->
+    <footer>
+      <article id="sosmed" class="sosmed">
+        <h3 class="text" data-aos="fade-down" data-aos-duration="800" data-aos-delay="50">Sosial Media</h3>
+        <div class="sosial-media">
+          <a class="itemSosmed" href="https://wa.me/+6285641029359" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="50"><i class="fab fa-whatsapp"></i></a>
+          <a class="itemSosmed" href="https://www.instagram.com/Kafila04_/" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="100"><i class="fab fa-instagram"></i></a>
+          <a class="itemSosmed" href="https://www.facebook.com/alliza.shopp?mibextid=rS40aB7S9Ucbxw6v" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="150"><i class="fab fa-facebook"></i></a>
+        </div>
+
+        <div class="credit">
+          <p>Created by <a href="">Allin Shifna Kafila</a></p>
+        </div>
+      </article>
+    </footer>
+
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbxHLA2FsBRSokX1CvyJ2WfSCLnzhrsWSBMTiZF86z1G1oS2ovvEMEYld_c05PpmJwuP/exec";
+      const form = document.forms["contact-us-alliza"];
+      const btnKirim = document.querySelector(".btn-kirim");
       const btnLoading = document.querySelector(".btn-loading");
       const myAlert = document.querySelector(".my-alert");
 
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault();
-      // ketika tombol submit di klik
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // ketika tombol submit di klik
         // tampilkan tombol loading, hilangkan tombol kirim
-        btnLoading.style.display = 'block';
-        btnKirim.style.display ='none';
+        btnLoading.style.display = "block";
+        btnKirim.style.display = "none";
         fetch(scriptURL, { method: "POST", body: new FormData(form) })
           .then((response) => {
             // tampilkan tombol kirim, hilangkan tombol loading
-            btnLoading.style.display = 'none';
-            btnKirim.style.display = 'block';
+            btnLoading.style.display = "none";
+            btnKirim.style.display = "block";
             // tampilkan alert
-            myAlert.style.display ='block';
+            myAlert.style.display = "block";
             //reset form
             form.reset();
             console.log("Success!", response);
           })
           .catch((error) => console.error("Error!", error.message));
       });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const ProductCard = document.querySelectorAll(".product-card");
 
-
-  </script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-     const ProductCard = document.querySelectorAll(".product-card");
-
-ProductCard.forEach((img, i) => {
-  img.dataset.aos = "fade-up";
-  img.dataset.aosDuration = 800;
-});
-    AOS.init();
+      ProductCard.forEach((img, i) => {
+        img.dataset.aos = "fade-up";
+        img.dataset.aosDuration = 800;
+      });
+      AOS.init();
     </script>
 
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
-<script>
-    gsap.registerPlugin(TextPlugin);
-    gsap.to('.deskripsi', {duration: 2, delay: 1.5, text: 'Box hampers elegan, paket hampers  kado, buket cantik, dan kado aesthetic free request.'});
-</script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".deskripsi", { duration: 2, delay: 1.5, text: "Box hampers elegan, paket hampers  kado, buket cantik, dan kado aesthetic free request." });
+    </script>
+  </body>
 </html>

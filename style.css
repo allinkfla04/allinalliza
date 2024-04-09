@@ -205,7 +205,7 @@ aside h2 {
   color: rgb(85, 16, 16);
 }
 .alert {
-  margin-bottom:  2rem;
+  margin-bottom: 2rem;
   color: rgb(85, 16, 16);
   display: none;
 }
@@ -248,7 +248,7 @@ aside h2 {
 }
 
 .btn-primary:hover {
-  background-color: #1b1202;;
+  background-color: #1b1202;
 }
 
 .btn-loading {
